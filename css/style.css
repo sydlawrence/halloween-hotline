@@ -1,0 +1,71 @@
+.fish {
+  position:fixed;
+  width:100px;
+}
+
+.fish .text {
+  position:absolute;
+  font-size:12px;
+  top:-20px;
+  left:80px;
+}
+
+.fish img {
+  position:absolute;
+}
+
+
+html, body {
+  height:100%;
+  padding:0;
+}
+body {
+  font-family:helvetica;
+  color:#fff;
+  font-weight:bold;
+  height:100%;
+  background:#1a1a1a url(../halloween.png);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#credits {
+  position:fixed;
+  bottom:5px;
+  left:5px;
+  font-size:12px;
+}
+
+#credits a {
+  color:#fff;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#credits a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size:70px;
+  padding-top:200px;
+  color:#dfdfdf;
+}
+
+.flipped img {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+}
+
+button {
+  font-size:30px;
+  border-radius:20px;
+  padding:10px 20px;
+  background:-webkit-linear-gradient(#f40b0b 0%, #870606 100%);
+  color:#fff;
+}
